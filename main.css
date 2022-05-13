@@ -1,0 +1,107 @@
+.parant {
+    width: 100%;
+    height: 80px;
+}
+.parant .child {
+
+    width: 100%;
+    height: 30px;
+}
+.parant .child  span h2 {
+    margin: 10px;
+    float: right;
+  display: flex;
+  padding: 20px;
+
+}
+.parant .child > h1 {
+    display: inline;
+    font-size: 60px;
+color: rgb(255, 0, 242);
+font-family: 'Beau Rivage', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Updock', cursive;
+padding: 20px;
+}
+.one  { display: flex;}
+img {
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+}
+.one > div > img { width: 200px;
+height: 200px;
+transform: translate(40px);
+}
+.img { padding: 30px 0px;}
+h4{font-size: 40px;
+     position: relative;}
+h4::after {
+    content: "";
+    background-color: rgb(121, 119, 116 , .7);
+    width: 80%;
+    height: 10px;
+    position: absolute;
+  bottom: 8px;
+  right: 20px;
+  border-radius: 20px;
+}
+.prelast{
+display: flex;
+justify-content: space-around;
+}
+.prelast >div>img{
+    width: 200px;
+    height: 100px;
+}
+.last {
+    background-color: orange;
+    display: flex;}
+    h5{ font-size: 30px;}
+    .last>div>p{margin: 10px}
+    @media(max-width :600px){
+
+        .parant .child  span h2 {
+            margin: 3px;
+            float: right;
+          display: flex;
+          padding: 3px;
+        
+        }
+ .one>div{
+     width: 33%;
+ }
+ .one>div>img{
+     width: 33%;
+ }
+ .one>div>p{
+     padding: 2px;
+ }
+
+ h4{font-size: 20px;
+    position: relative;}
+h4::after {
+   content: "";
+   background-color: rgb(121, 119, 116 , .7);
+   width: 30%;
+   height: 10px;
+   position: absolute;
+ bottom: 8px;
+ right: 20px;
+ border-radius: 20px;
+}
+
+
+.prelast >div>img{
+    width: 49%;
+    height: 100px;
+
+
+    }
+
+
+
+    .prelast >div>h1{font-size: 15px;}
+
+
+}
